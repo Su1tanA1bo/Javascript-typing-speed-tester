@@ -1,0 +1,126 @@
+/*
+---BODY LAYOUT----
+*/
+:root{
+    --Customblue : #031022
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Customblue);
+}
+
+.masthead {
+    padding: 1em 2em;
+    background-color: var(--Customblue);
+    color: rgb(235, 237, 250);
+    text-align: center;
+}
+
+.intro {
+    padding: 2em 2em;
+    color: var(--Customblue);
+    background: rgb(235, 237, 250);
+}
+
+.intro p,
+.test-area {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.test-area {
+    margin-bottom: 4em;
+    padding: 0 2em;
+}
+
+.test-wrapper {
+    border: 7px solid rgb(235, 237, 250);
+    border-radius: 10px;
+}
+
+#origin-text {
+    margin: 1em 0;
+    padding: 1em 1em 0;
+    background-color: rgb(235, 237, 250);
+    color: var(--Customblue);
+    border-radius: 10px;
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+.test-wrapper {
+    display: flex;
+    border-radius: 15px;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+    border: rgb(235, 237, 250) ;
+    background-color: var(--Customblue);
+    color: rgb(235, 237, 250) ;
+    border-radius: 15px;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(235, 237, 250);
+}
+
+#reset {
+    padding: 5px 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(235, 237, 250);
+    background: var(--Customblue) ;
+    border: 5px solid rgb(235, 237, 250);
+    border-radius: 10px;
+}
+
+#reset:hover {
+    color: white;
+    background-color: #677fcc;
+}
+
+/*
+----fonts---
+*/
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
